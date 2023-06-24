@@ -100,4 +100,5 @@ def main():
     delete_empty_folder(path)
     unpack_archive_(path)
 
-main()
+if __name__ == "__main__":
+    main()
